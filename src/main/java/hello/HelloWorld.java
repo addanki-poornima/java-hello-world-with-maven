@@ -6,6 +6,7 @@ public class HelloWorld {
     public static void main(String[] args) {
       LocalTime currentTime = new LocalTime();
 		  System.out.println("The current Time is: " + currentTime);
+		  System.out.println("Hello.... " + currentTime);
 		
 
         Greeter greeter = new Greeter();
